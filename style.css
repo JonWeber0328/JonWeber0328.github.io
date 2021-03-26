@@ -1,0 +1,170 @@
+/* ----------------------------------------------------- */
+/* Found on: https://stackoverflow.com/questions/18529274/change-navbar-color-in-twitter-bootstrap */
+
+
+
+.navbar-brand{
+    background-color:#1d959e;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgb(252, 249, 249);
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #050005;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #7e0774;
+}
+
+/* for dropdown only - change the color of dropdown */
+.navbar-custom .dropdown-menu {
+    background-color: #fdfbfb;
+}
+
+.navbar-custom .dropdown-item {
+    color: #070000;
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #191919;
+    background-color: #f9faf9;
+}
+/* ----------------------------------------------------- */
+/* change title color */
+.card-title {
+    color:#1d959e;
+}
+
+/* change header font size */
+.h5, h5 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* change summary image layout */
+.btn {
+    border: 0;
+    padding: 0;
+    vertical-align: left;
+}
+/* change image size */
+.float-left {
+    max-width: 279px; 
+    max-height: auto;
+}
+
+/* Set line for card box */
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+/* set thumbnail attributes */
+.thumbnail1 {
+    max-width: 180px;
+    max-height: auto;
+}
+.thumbnail2 {
+    max-width: 180px;
+    max-height: auto;
+}
+.thumbnail3 {
+    max-width: 180px;
+    max-height: auto;
+}
+.thumbnail4 {
+    max-width: 180px;
+    max-height: auto;
+}
+/**/
+.thumbnail5 {
+    max-width: 500px;
+    max-height: auto;
+}
+.thumbnail6 {
+    max-width: 500px;
+    max-height: auto;
+}
+.thumbnail7 {
+    max-width: 500px;
+    max-height: auto;
+}
+.thumbnail8 {
+    max-width: 500px;
+    max-height: auto;
+}
+/**/
+.thumbnail9 {
+    max-width: 180px;
+    max-height: auto;
+    border-color:#1d959e;
+    border-style:solid;
+}
+.thumbnail10 {
+    max-width: 180px;
+    max-height: auto;
+    border-color:#1d959e;
+    border-style:solid;
+}
+.thumbnail11 {
+    max-width: 180px;
+    max-height: auto;
+    border-color:#1d959e;
+    border-style:solid;
+}
+.thumbnail12 {
+    max-width: 180px;
+    max-height: auto;
+    border-color:#1d959e;
+    border-style:solid;
+}
+h4 {
+    text-align:center;
+    color:#1d959e;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+.table-header {
+    border-bottom-style: solid;
+    border-bottom-color:#1d959e;
+}
+/* found on: https://stackoverflow.com/questions/50807744/apply-css-class-to-pandas-dataframe-using-to-html/50939211 */
+/* includes alternating gray and white with on-hover color */
+.mystyle {
+    border:1;
+    font-size: 11pt; 
+    font-family: Arial;
+    border-collapse: collapse; 
+    border: 1px solid silver;
+}
+.mystyle td, th {
+    padding: 5px;
+}
+.mystyle tr:nth-child(even) {
+    background: #E0E0E0;
+}
+.mystyle tr:hover {
+    background: silver;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    .navbar-custom {
+    background-color: #1d959e;
+    }
+    .card_body
+}
